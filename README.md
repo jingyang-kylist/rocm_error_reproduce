@@ -7,7 +7,7 @@ The "block dimensions: 256x1x1: hipError_t(9)" is universal; the specific operat
 ```bash
 python3 -m venv hf
 source hf/bin/activate
-python -m pip install jax[rocm] jax-rocm60-pjrt jax-rocm60-plugin flax
+python -m pip install jax[rocm]==0.4.35 jax-rocm60-pjrt jax-rocm60-plugin flax
 
 git clone --recursive https://github.com/jingyang-kylist/rocm_error_reproduce.git
 cd rocm_error_reproduce/transformers
