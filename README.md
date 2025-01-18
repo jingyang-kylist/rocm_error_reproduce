@@ -1,5 +1,6 @@
 # Reproducing ROCm error on AMD AAC
 <img width="1468" alt="image" src="https://github.com/user-attachments/assets/88a43205-7124-4c7b-9012-7524b9dde927" />
+The "block dimensions: 256x1x1: hipError_t(9)" is universal; the specific operation (e.g., "fp32_comparison", "bf16_comparison") can be different depending on the specific implementation.
 
 ## Steps
 ### Environment
